@@ -1,0 +1,525 @@
+text,label
+I am experiencing high fever today,Fever
+Feeling feverish since morning,Fever
+My body temperature is very high,Fever
+I have chills along with fever,Fever
+Sudden rise in body temperature,Fever
+Feeling hot and weak,Fever
+Fever with sweating,Fever
+I have mild fever today,Fever
+My body feels very warm,Fever
+Fever started yesterday,Fever
+I feel extremely hot and tired,Fever
+Temperature is increasing,Fever
+Fever with headache,Fever
+High fever since last night,Fever
+Fever and body discomfort,Fever
+I feel feverish and weak,Fever
+Persistent fever symptoms,Fever
+Fever with fatigue,Fever
+I have body heat and chills,Fever
+Continuous fever feeling,Fever
+,
+I have a runny nose,Cold
+Sneezing continuously since morning,Cold
+My nose is blocked,Cold
+Cold with nasal congestion,Cold
+Watery nose all day,Cold
+I am sneezing a lot,Cold
+Nose feels stuffy,Cold
+Cold symptoms with irritation,Cold
+Runny nose and sneezing,Cold
+Mild cold since yesterday,Cold
+Blocked nose with discomfort,Cold
+Nasal congestion problem,Cold
+Sneezing due to cold,Cold
+Cold with headache,Cold
+Runny nose and cough,Cold
+I have cold symptoms today,Cold
+Frequent sneezing issue,Cold
+Cold and throat irritation,Cold
+Stuffy nose and discomfort,Cold
+Persistent cold symptoms,Cold
+,
+I have a severe headache,Headache
+Pain in my head area,Headache
+Constant headache since morning,Headache
+Heavy pressure in my head,Headache
+Sharp pain in head,Headache
+Headache and tiredness,Headache
+Pain in forehead region,Headache
+My head hurts badly,Headache
+Continuous head pain,Headache
+Headache from yesterday,Headache
+Strong headache feeling,Headache
+Headache after long work,Headache
+Head pain with discomfort,Headache
+I feel pressure in my head,Headache
+Mild headache today,Headache
+Headache with weakness,Headache
+Pain near temples,Headache
+Headache and fatigue,Headache
+Persistent head pain,Headache
+Headache all day long,Headache
+,
+I have stomach pain,Indigestion
+Feeling bloated after eating,Indigestion
+Acidity in stomach,Indigestion
+Gas causing discomfort,Indigestion
+Upset stomach feeling,Indigestion
+Burning sensation in stomach,Indigestion
+Indigestion since morning,Indigestion
+Heavy feeling in stomach,Indigestion
+Digestive discomfort issue,Indigestion
+Bloating and gas problem,Indigestion
+Stomach cramps,Indigestion
+Acid reflux symptoms,Indigestion
+Food not digesting properly,Indigestion
+Stomach irritation,Indigestion
+Gas and bloating issue,Indigestion
+Mild indigestion today,Indigestion
+Stomach feels uneasy,Indigestion
+Digestive system problem,Indigestion
+Pain after eating food,Indigestion
+Stomach discomfort since yesterday,Indigestion
+,
+I have body pain,Body Pain
+Muscle pain all over my body,Body Pain
+Joint pain since morning,Body Pain
+Pain in my legs and arms,Body Pain
+Whole body feels sore,Body Pain
+Back pain after work,Body Pain
+Muscle stiffness today,Body Pain
+Body ache with tiredness,Body Pain
+Pain in joints continuously,Body Pain
+Full body discomfort,Body Pain
+Muscle soreness after activity,Body Pain
+Joint stiffness issue,Body Pain
+Pain in lower back,Body Pain
+Leg pain since yesterday,Body Pain
+Arm pain problem,Body Pain
+Body ache all day,Body Pain
+Muscle pain and weakness,Body Pain
+Pain while moving,Body Pain
+General body soreness,Body Pain
+Body pain with fatigue,Body Pain
+,
+I feel extremely tired today,Fatigue
+No energy to do anything,Fatigue
+Feeling exhausted since morning,Fatigue
+Always feeling sleepy,Fatigue
+Low energy levels all day,Fatigue
+Feeling weak and drained,Fatigue
+Tired after small tasks,Fatigue
+Constant tiredness,Fatigue
+I feel very low on energy,Fatigue
+Exhaustion problem today,Fatigue
+Feeling lazy and tired,Fatigue
+Weakness in my body,Fatigue
+I get tired very quickly,Fatigue
+No strength to work,Fatigue
+Fatigue after work,Fatigue
+Energy levels are very low,Fatigue
+Feeling sleepy all the time,Fatigue
+Tired and weak today,Fatigue
+Fatigue and body weakness,Fatigue
+Always feeling exhausted,Fatigue
+,
+I have a sore throat,Sore Throat
+Pain while swallowing food,Sore Throat
+Scratchy feeling in throat,Sore Throat
+Dry throat since morning,Sore Throat
+Throat irritation issue,Sore Throat
+Burning sensation in throat,Sore Throat
+Swollen throat feeling,Sore Throat
+Throat discomfort today,Sore Throat
+Hoarse voice and throat pain,Sore Throat
+Difficulty in swallowing,Sore Throat
+Throat feels very dry,Sore Throat
+Pain in throat area,Sore Throat
+Irritated throat problem,Sore Throat
+Throat pain with cough,Sore Throat
+Dry and painful throat,Sore Throat
+Throat infection feeling,Sore Throat
+Voice change due to throat,Sore Throat
+Throat burning sensation,Sore Throat
+Continuous throat pain,Sore Throat
+Swallowing is painful,Sore Throat
+,
+I have a cough,Cough
+Dry cough since morning,Cough
+Wet cough with mucus,Cough
+Continuous coughing all day,Cough
+Persistent cough issue,Cough
+Cough with chest discomfort,Cough
+Cough gets worse at night,Cough
+Frequent coughing problem,Cough
+Cough and throat irritation,Cough
+Chronic cough symptoms,Cough
+Strong cough feeling,Cough
+Cough since yesterday,Cough
+Cough with cold symptoms,Cough
+Repeated coughing issue,Cough
+Dry cough all day,Cough
+Cough with slight pain,Cough
+Chest congestion with cough,Cough
+Night time coughing,Cough
+Coughing continuously,Cough
+Severe cough problem,Cough
+,
+I feel nauseous,Nausea
+Feeling like vomiting,Nausea
+Upset stomach with nausea,Nausea
+Nausea after eating food,Nausea
+Vomiting sensation today,Nausea
+Sick feeling in stomach,Nausea
+Queasy stomach problem,Nausea
+Nausea with dizziness,Nausea
+Feeling uneasy and sick,Nausea
+Constant nausea feeling,Nausea
+Want to vomit frequently,Nausea
+Nausea and weakness,Nausea
+Stomach feels uneasy,Nausea
+Feeling like throwing up,Nausea
+Nausea all day long,Nausea
+Vomiting urge continuously,Nausea
+Nausea with headache,Nausea
+Sick stomach since morning,Nausea
+Nausea problem today,Nausea
+Uneasy stomach feeling,Nausea
+,
+I have an allergy,Allergy
+Skin itching all over,Allergy
+Rash on my skin,Allergy
+Watery eyes due to allergy,Allergy
+Allergic reaction on skin,Allergy
+Redness and itching,Allergy
+Allergy due to dust exposure,Allergy
+Skin irritation problem,Allergy
+Itching and swelling,Allergy
+Allergy symptoms increasing,Allergy
+Sneezing due to allergy,Allergy
+Skin rash and redness,Allergy
+Allergy with itching sensation,Allergy
+Eye irritation and watering,Allergy
+Allergic cold symptoms,Allergy
+Itchy eyes and nose,Allergy
+Skin sensitivity issue,Allergy
+Allergy flare up today,Allergy
+Persistent itching problem,Allergy
+Allergic reaction worsening,Allergy
+,
+I have loose motion,Diarrhea
+Frequent stools since morning,Diarrhea
+Watery stools all day,Diarrhea
+Stomach upset with diarrhea,Diarrhea
+Loose motion problem today,Diarrhea
+Frequent bowel movements,Diarrhea
+Diarrhea since yesterday,Diarrhea
+Upset stomach and loose stools,Diarrhea
+Watery bowel movement issue,Diarrhea
+Stomach cramps with diarrhea,Diarrhea
+Loose motion after eating,Diarrhea
+Frequent restroom visits,Diarrhea
+Diarrhea with weakness,Diarrhea
+Digestive issue with loose motion,Diarrhea
+Continuous diarrhea problem,Diarrhea
+Loose stools and discomfort,Diarrhea
+Frequent diarrhea episodes,Diarrhea
+Stomach pain with loose motion,Diarrhea
+Diarrhea all day long,Diarrhea
+Uncontrolled loose motion,Diarrhea
+,
+I have a skin rash,Skin Rash
+Red spots on skin,Skin Rash
+Skin irritation with rash,Skin Rash
+Rashes all over body,Skin Rash
+Itchy red patches,Skin Rash
+Skin redness and rash,Skin Rash
+Allergic skin rash,Skin Rash
+Small bumps on skin,Skin Rash
+Skin rash with itching,Skin Rash
+Inflamed skin patches,Skin Rash
+Rash spreading on skin,Skin Rash
+Dry skin with rash,Skin Rash
+Burning rash sensation,Skin Rash
+Skin rash since morning,Skin Rash
+Irritated skin rash,Skin Rash
+Rash with redness,Skin Rash
+Skin breakout problem,Skin Rash
+Patchy rash on body,Skin Rash
+Rash and skin discomfort,Skin Rash
+Skin rash worsening,Skin Rash
+,
+I feel dizzy,Dizziness
+Lightheaded feeling today,Dizziness
+Dizziness since morning,Dizziness
+Feeling unsteady,Dizziness
+Head spinning sensation,Dizziness
+Dizzy while standing,Dizziness
+Sudden dizziness today,Dizziness
+Loss of balance feeling,Dizziness
+Feeling faint and dizzy,Dizziness
+Dizziness with weakness,Dizziness
+Spinning head sensation,Dizziness
+Dizziness after waking up,Dizziness
+Unstable walking due to dizziness,Dizziness
+Dizzy spells today,Dizziness
+Feeling faint frequently,Dizziness
+Dizziness with nausea,Dizziness
+Head feels light,Dizziness
+Continuous dizziness problem,Dizziness
+Sudden lightheadedness,Dizziness
+Dizziness all day,Dizziness
+,
+I have chest pain,Chest Pain
+Tightness in chest area,Chest Pain
+Chest discomfort today,Chest Pain
+Pain in chest while breathing,Chest Pain
+Sharp chest pain,Chest Pain
+Chest pressure feeling,Chest Pain
+Pain in chest since morning,Chest Pain
+Chest pain with movement,Chest Pain
+Mild chest discomfort,Chest Pain
+Chest pain after activity,Chest Pain
+Burning sensation in chest,Chest Pain
+Chest tightness issue,Chest Pain
+Pain near heart area,Chest Pain
+Chest pain and weakness,Chest Pain
+Discomfort in chest region,Chest Pain
+Chest pain when coughing,Chest Pain
+Persistent chest pain,Chest Pain
+Chest heaviness feeling,Chest Pain
+Pain in upper chest,Chest Pain
+Chest pain all day,Chest Pain
+,
+I have migraine,Migraine
+Severe throbbing headache,Migraine
+Migraine since morning,Migraine
+Headache with light sensitivity,Migraine
+Migraine and nausea,Migraine
+Intense headache on one side,Migraine
+Migraine attack today,Migraine
+Headache with dizziness,Migraine
+Migraine and eye pain,Migraine
+Severe migraine pain,Migraine
+Throbbing head pain,Migraine
+Migraine with vomiting,Migraine
+Pain behind eyes,Migraine
+Migraine since yesterday,Migraine
+Sensitivity to light and sound,Migraine
+One sided head pain,Migraine
+Migraine with weakness,Migraine
+Severe head pressure,Migraine
+Migraine and fatigue,Migraine
+Continuous migraine issue,Migraine
+,
+I am feeling high fever with headache,Fever
+Fever along with body weakness,Fever
+Experiencing chills and fever together,Fever
+Body feels extremely hot today,Fever
+Fever with slight dizziness,Fever
+I have continuous fever symptoms,Fever
+Feeling warm with sweating,Fever
+Fever and mild body pain,Fever
+High temperature with fatigue,Fever
+Fever making me feel weak,Fever
+Body heat and tiredness,Fever
+Fever with discomfort in body,Fever
+Temperature rising since morning,Fever
+Fever and lack of energy,Fever
+Feeling hot and uneasy,Fever
+Fever with slight headache,Fever
+Persistent fever since yesterday,Fever
+Fever causing weakness,Fever
+Warm body with chills,Fever
+Fever and restlessness,Fever
+,
+I am having severe cold,Cold
+Cold with heavy congestion,Cold
+Runny nose and sneezing together,Cold
+Cold making breathing difficult,Cold
+Blocked nose since morning,Cold
+Cold with watery eyes,Cold
+Nasal blockage and discomfort,Cold
+Cold and mild fever,Cold
+Sneezing fits continuously,Cold
+Cold affecting my throat,Cold
+Runny nose and irritation,Cold
+Cold and sinus pressure,Cold
+Nose completely blocked,Cold
+Cold with headache and sneezing,Cold
+Persistent cold problem,Cold
+Cold and nasal discomfort,Cold
+Sneezing due to dust allergy,Cold
+Cold worsening today,Cold
+Runny nose with fatigue,Cold
+Cold and throat dryness,Cold
+,
+I am having strong headache,Headache
+Headache with pressure in forehead,Headache
+Continuous pain in head,Headache
+Headache with eye strain,Headache
+Head pain after long screen time,Headache
+Headache making it hard to focus,Headache
+Pain spreading across head,Headache
+Headache with slight dizziness,Headache
+Headache after waking up,Headache
+Head feels very heavy,Headache
+Throbbing pain in head,Headache
+Headache affecting daily work,Headache
+Pain in back of head,Headache
+Headache and low energy,Headache
+Headache with discomfort,Headache
+Constant dull headache,Headache
+Headache worsening today,Headache
+Pain near eyes and forehead,Headache
+Headache with stress feeling,Headache
+Head pain and fatigue,Headache
+,
+I am experiencing stomach discomfort,Indigestion
+Stomach feels heavy after meals,Indigestion
+Acidity causing burning sensation,Indigestion
+Gas and stomach pain together,Indigestion
+Indigestion making me uneasy,Indigestion
+Bloating after eating food,Indigestion
+Stomach cramps with gas,Indigestion
+Acid reflux after meals,Indigestion
+Digestive issue since yesterday,Indigestion
+Stomach irritation and discomfort,Indigestion
+Indigestion with fullness feeling,Indigestion
+Gas buildup causing pain,Indigestion
+Stomach pain after heavy meal,Indigestion
+Bloating and acidity together,Indigestion
+Indigestion affecting appetite,Indigestion
+Stomach feels tight and heavy,Indigestion
+Gas causing discomfort in abdomen,Indigestion
+Indigestion with mild nausea,Indigestion
+Stomach upset with burning feeling,Indigestion
+Digestive discomfort all day,Indigestion
+,
+I am feeling body ache and weakness,Body Pain
+Pain in muscles after activity,Body Pain
+Joint pain making movement hard,Body Pain
+Body soreness since morning,Body Pain
+Muscle stiffness after rest,Body Pain
+Pain spreading across body,Body Pain
+Body ache with low energy,Body Pain
+Joint pain with swelling feeling,Body Pain
+Muscle pain after long work,Body Pain
+Body pain affecting daily tasks,Body Pain
+Pain in legs while walking,Body Pain
+Body ache and tiredness,Body Pain
+Muscle soreness after exercise,Body Pain
+Joint stiffness in morning,Body Pain
+Pain in shoulders and arms,Body Pain
+Body discomfort with fatigue,Body Pain
+Muscle pain worsening today,Body Pain
+General body ache feeling,Body Pain
+Pain in back and legs,Body Pain
+Body pain and weakness together,Body Pain
+,
+I feel extremely tired and weak,Fatigue
+Low energy throughout the day,Fatigue
+Exhausted after small activities,Fatigue
+Feeling drained and sleepy,Fatigue
+Fatigue with no motivation,Fatigue
+Tired even after resting,Fatigue
+Weakness in whole body,Fatigue
+Feeling sluggish and tired,Fatigue
+Fatigue affecting my routine,Fatigue
+Energy levels dropping,Fatigue
+Tiredness since morning,Fatigue
+Feeling very low on stamina,Fatigue
+Fatigue with body weakness,Fatigue
+Exhaustion all day long,Fatigue
+Always feeling tired and sleepy,Fatigue
+Low strength in body,Fatigue
+Feeling inactive and weak,Fatigue
+Fatigue with slight dizziness,Fatigue
+Tiredness making it hard to work,Fatigue
+Constant lack of energy,Fatigue
+,
+I have throat pain and irritation,Sore Throat
+Sore throat with dryness,Sore Throat
+Pain while speaking,Sore Throat
+Throat feels itchy,Sore Throat
+Sore throat affecting voice,Sore Throat
+Throat pain since yesterday,Sore Throat
+Dry throat and discomfort,Sore Throat
+Throat feels inflamed,Sore Throat
+Pain in throat while drinking,Sore Throat
+Scratchy throat feeling,Sore Throat
+Throat irritation with cough,Sore Throat
+Sore throat worsening today,Sore Throat
+Throat dryness all day,Sore Throat
+Painful throat sensation,Sore Throat
+Throat discomfort with dryness,Sore Throat
+Voice hoarseness with pain,Sore Throat
+Burning throat feeling,Sore Throat
+Throat feels rough,Sore Throat
+Difficulty speaking due to throat,Sore Throat
+Sore throat with mild swelling,Sore Throat
+,
+I am coughing continuously,Cough
+Cough with mucus buildup,Cough
+Dry cough at night,Cough
+Cough with throat pain,Cough
+Persistent coughing since yesterday,Cough
+Cough affecting breathing,Cough
+Cough with chest tightness,Cough
+Frequent cough attacks,Cough
+Dry cough with irritation,Cough
+Wet cough with discomfort,Cough
+Cough making chest hurt,Cough
+Continuous dry cough,Cough
+Cough worsening at night,Cough
+Chest congestion and cough,Cough
+Cough with slight fever,Cough
+Repeated coughing fits,Cough
+Cough and throat dryness,Cough
+Heavy cough problem,Cough
+Cough disturbing sleep,Cough
+Strong cough with mucus,Cough
+,
+I feel nausea after eating,Nausea
+Nausea with stomach upset,Nausea
+Feeling like vomiting continuously,Nausea
+Nausea and dizziness together,Nausea
+Upset stomach causing nausea,Nausea
+Nausea making me uncomfortable,Nausea
+Feeling sick after meals,Nausea
+Nausea with low appetite,Nausea
+Continuous vomiting sensation,Nausea
+Nausea since yesterday,Nausea
+Feeling uneasy and nauseous,Nausea
+Nausea affecting digestion,Nausea
+Stomach discomfort with nausea,Nausea
+Nausea with weakness feeling,Nausea
+Feeling like throwing up all day,Nausea
+Nausea and tiredness,Nausea
+Vomiting urge after food,Nausea
+Nausea with headache,Nausea
+Constant sick feeling,Nausea
+Nausea and stomach irritation,Nausea
+,
+I have skin itching and rash,Allergy
+Allergic reaction causing redness,Allergy
+Skin irritation due to allergy,Allergy
+Itchy rash spreading on skin,Allergy
+Allergy causing watery eyes,Allergy
+Skin redness with itching,Allergy
+Allergy due to pollen exposure,Allergy
+Itchy skin with swelling,Allergy
+Allergy symptoms getting worse,Allergy
+Skin reaction to dust,Allergy
+Allergy causing sneezing and rash,Allergy
+Skin irritation with redness,Allergy
+Allergic rash with discomfort,Allergy
+Itching due to allergic reaction,Allergy
+Skin sensitivity due to allergy,Allergy
+Allergy causing discomfort in skin,Allergy
+Red itchy patches on skin,Allergy
+Allergic flare up today,Allergy
+Skin itching continuously,Allergy
+Allergy with irritation and rash,Allergy

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri Health Advisor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-wrapper">
+                <img src="images/logo.png" alt="Logo" class="logo-icon">
+                <h1 class="logo">TriHealth Advisor</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#analysis" class="btn-primary">Start Analysis</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Explore a Symptom-Classification Demo</h1>
+            <p class="hero-subtitle">An educational machine-learning demo that classifies symptom text and visualizes configurable example scores.</p>
+            <button class="btn-primary" onclick="scrollToAnalysis()">Start Analysis</button>
+        </div>
+        <!-- Wave Divider -->
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,121.3,201.3,114.13c46.73-4.7,92.93-17.65,120.09-57.69Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Our Capabilities</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Symptom Analysis</h3>
+                    <p>TF-IDF transforms symptom text into features for a text classifier.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>AI Prediction</h3>
+                    <p>A Logistic Regression model predicts one of the labels represented in the training dataset.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Treatment Comparison</h3>
+                    <p>Explore a weighted-sum calculation using illustrative, non-clinical values.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Decision Recommendation</h3>
+                    <p>See how changing preference weights changes example scores; the results are not medical advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-flex">
+            <div class="about-image">
+                <img src="images/about.jpg" alt="Medical Technology">
+            </div>
+            <div class="about-text">
+                <h2>About TriHealthAdvisor</h2>
+                <p>TriHealth Advisor is an educational software prototype for exploring text classification and weighted scoring.</p>
+                <p>The comparison uses hard-coded illustrative values for <strong>Allopathy, Ayurveda, and Homeopathy</strong>. These values are not clinical evidence and do not establish that one system is safer or more effective.</p>
+                <button class="btn-secondary" onclick="scrollToAnalysis()">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analysis & Results Section -->
+    <section id="analysis" class="analysis-section">
+        <div class="container">
+            <h2 class="section-title">Consult AI</h2>
+            <div class="analysis-card">
+                <form id="symptom-form" class="symptom-form">
+                    <label for="symptom-input">Describe your symptoms:</label>
+                    <textarea id="symptom-input" rows="4"
+                        placeholder="e.g. I have a severe headache, slight fever, and nausea..." required></textarea>
+
+                    <div class="preferences-section">
+                        <h3>Personalize Your Recommendation</h3>
+                        <p class="preferences-subtitle">Adjust the weights (1-10) to tell us what matters most to you.
+                        </p>
+
+                        <div class="slider-group">
+                            <label for="speed-slider">Speed Priority <span class="slider-value"
+                                    id="speed-val">5</span></label>
+                            <input type="range" id="speed-slider" min="1" max="10" value="5" class="custom-slider"
+                                oninput="document.getElementById('speed-val').textContent = this.value">
+                        </div>
+
+                        <div class="slider-group">
+                            <label for="safety-slider">Safety Priority <span class="slider-value"
+                                    id="safety-val">5</span></label>
+                            <input type="range" id="safety-slider" min="1" max="10" value="5" class="custom-slider"
+                                oninput="document.getElementById('safety-val').textContent = this.value">
+                        </div>
+
+                        <div class="slider-group">
+                            <label for="cost-slider">Cost Priority <span class="slider-value"
+                                    id="cost-val">5</span></label>
+                            <input type="range" id="cost-slider" min="1" max="10" value="5" class="custom-slider"
+                                oninput="document.getElementById('cost-val').textContent = this.value">
+                        </div>
+
+                        <div class="slider-group">
+                            <label for="effectiveness-slider">Effectiveness Priority <span class="slider-value"
+                                    id="effectiveness-val">5</span></label>
+                            <input type="range" id="effectiveness-slider" min="1" max="10" value="5"
+                                class="custom-slider"
+                                oninput="document.getElementById('effectiveness-val').textContent = this.value">
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit-btn" class="btn-primary">Analyze Symptoms</button>
+                </form>
+                <div id="loader" class="loader hidden">Analyzing your health data...</div>
+                <div id="error-message" class="error hidden"></div>
+            </div>
+
+            <!-- Doctor-style Treatment Cards (Hidden initially) -->
+            <p class="medical-disclaimer"><strong>Important:</strong> This educational prototype does not diagnose conditions or recommend treatment. Do not use its predictions or scores to make healthcare decisions. For medical concerns, contact a qualified healthcare professional. If symptoms are severe or urgent, seek emergency care.</p>
+            <div id="results-wrapper" class="results-wrapper hidden">
+                <div class="diagnosis-header">
+                    <h3>Predicted dataset label: <span id="predicted-symptom" class="highlight"></span></h3>
+                    <h3>Highest illustrative score: <span id="recommended-treatment" class="highlight"></span></h3>
+                </div>
+
+                <div id="treatment-cards" class="treatment-grid">
+                    <!-- Cards injected via JS -->
+                </div>
+                <!-- ADD GRAPH HERE -->
+                <div class="chart-container">
+                    <canvas id="comparisonChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h2>TriHealthAdvisor</h2>
+                <p>An educational symptom-classification and scoring prototype.</p>
+            </div>
+            <div class="footer-links">
+                <p><strong>Project Name:</strong> TriHealthAdvisor</p>
+                <p><strong>College:</strong> Indian Institute of Information Technology Pune</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tri Health Advisor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
